@@ -1,17 +1,21 @@
-public class billet {
-    private aeroport départ;
-    private aeroport arrivé;
+package com.archi.rest;
+
+import com.archi.rest.Aeroport;
+
+public class Billet {
+    private Aeroport départ;
+    private Aeroport arrivé;
     private int prix;
     private reservation reservation;
 
-    public billet(aeroport départ, aeroport arrivé, int prix)
+    public Billet(Aeroport départ, Aeroport arrivé, int prix)
     {
         this.départ= départ;
         this.arrivé=arrivé;
         this.prix=prix;
     }
 
-    public billet(aeroport départ, aeroport arrivé, int prix, reservation reservation)
+    public Billet(Aeroport départ, Aeroport arrivé, int prix, reservation reservation)
     {
         this.départ= départ;
         this.arrivé=arrivé;
@@ -20,7 +24,7 @@ public class billet {
     }
 
     public static void main(String[] args) {
-        billet test = new billet(aeroport.CDG, aeroport.JFK, 400);
+        Billet test = new Billet(Aeroport.CDG, Aeroport.JFK, 400);
         System.out.println(test);
     }
 

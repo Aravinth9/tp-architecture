@@ -1,3 +1,5 @@
+package com.archi.rest;
+
 public class reservation {
     int numero_reservation;
     boolean reserved;

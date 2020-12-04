@@ -1,19 +1,19 @@
 # TP Architecture Distribué
 
 Ce TP fonctionne par groupe de 4 ou 5.
-Nous allons réalisé une solution, ultra simplifié de reservation de billet d'avion.
+Nous allons réalisé une solution, ultra simplifié de reservation de Billet d'avion.
 Nous gérons 3 aéroports:
 - New York qui porte le code JFK
 - CDG Paris qui porte le code CDG
 - Detroit qui porte le code DTW
 
 Tout les jours, des billets d'avions sont disponible.
-Un billet d'avion est consituté:
+Un Billet d'avion est consituté:
 - D'un code depart
 - D'un code destination
 - D'un prix (en Euros)
 
-__CDG-JFK 400__ represente donc un billet d'avion au départ de Paris et à destination de New York à 400 euros.
+__CDG-JFK 400__ represente donc un Billet d'avion au départ de Paris et à destination de New York à 400 euros.
 
 ## Etape 0
 
@@ -27,7 +27,7 @@ __CDG-JFK 400__ represente donc un billet d'avion au départ de Paris et à dest
 
 ## Etape 1
 
-Designer ce systeme de reservation de billet d'avion.
+Designer ce systeme de reservation de Billet d'avion.
 
 La solution doit permettre:
 - de permettre à un utilisateur de voir la liste des voles disponible
