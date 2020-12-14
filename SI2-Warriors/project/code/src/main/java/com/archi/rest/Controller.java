@@ -21,7 +21,7 @@ public class Controller {
     public ArrayList<Billet> test ()
     {
         System.out.println("bonjour");
-        Billet a = new Billet(Aeroport.JFK,Aeroport.CDG,400, new reservation(1,false));
+        Billet a = new Billet(Aeroport.JFK,Aeroport.CDG,400, new Reservation(1,false));
         billetService.addBillet(a);
         System.out.println(billetService.affiche());
         return billetService.affiche();
