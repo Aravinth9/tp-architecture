@@ -6,7 +6,7 @@ public class Billet {
     private Aeroport depart;
     private Aeroport arrivee;
     private int prix;
-    private reservation reservation;
+    private Reservation reservation;
 
     public Billet(Aeroport depart, Aeroport arrivee, int prix)
     {
@@ -15,7 +15,7 @@ public class Billet {
         this.prix=prix;
     }
 
-    public Billet(Aeroport depart, Aeroport arrivee, int prix, reservation reservation)
+    public Billet(Aeroport depart, Aeroport arrivee, int prix, Reservation reservation)
     {
         this.depart= depart;
         this.arrivee=arrivee;
