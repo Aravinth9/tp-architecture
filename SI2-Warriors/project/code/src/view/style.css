@@ -77,6 +77,9 @@
 	color: rgba(0, 0, 0, 0.3);
 	font-size: 14px;
 }
+.row1 {
+	display: flex;
+}
 
 .booking-form select.form-control+.select-arrow:after {
 	content: '\279C';
@@ -167,6 +170,8 @@
 	-webkit-transition: 0.2s all;
 	transition: 0.2s all;
 }
+
+
 
 .booking-form .submit-btn:hover,
 .booking-form .submit-btn:focus {
