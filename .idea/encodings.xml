@@ -2,5 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SI2-Warriors/project/code/src/main/java" charset="UTF-8" />
+<<<<<<< HEAD
+=======
+    <file url="file://$PROJECT_DIR$/SI2-Warriors/project/code/src/main/resources" charset="UTF-8" />
+>>>>>>> 74151a4d3e820210f5bb64a1b06592f28be87dd3
   </component>
 </project>

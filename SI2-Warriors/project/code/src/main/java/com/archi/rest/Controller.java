@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 
 @RestController
+@CrossOrigin
 public class Controller {
 
     @Autowired
@@ -20,11 +21,13 @@ public class Controller {
     @GetMapping("/liste")
     public ArrayList<Billet> test ()
     {
-        System.out.println("bonjour");
-        Billet a = new Billet(Aeroport.JFK,Aeroport.CDG,400, new reservation(1,false));
-        billetService.addBillet(a);
-        System.out.println(billetService.affiche());
+//        System.out.println("bonjour");
+//        Aeroport airport = new Aeroport();
+//        Billet a = new Billet(airport.getAirport(3),airport.getAirport(0),400, new Reservation(1,false));
+//        billetService.addBillet(a);
+//        System.out.println(billetService.affiche());
         return billetService.affiche();
+
     }
 
 
