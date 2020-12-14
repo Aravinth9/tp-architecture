@@ -3,22 +3,22 @@ package com.archi.rest;
 import com.archi.rest.Aeroport;
 
 public class Billet {
-    private Aeroport départ;
-    private Aeroport arrivé;
+    private Aeroport depart;
+    private Aeroport arrivee;
     private int prix;
     private reservation reservation;
 
-    public Billet(Aeroport départ, Aeroport arrivé, int prix)
+    public Billet(Aeroport depart, Aeroport arrivee, int prix)
     {
-        this.départ= départ;
-        this.arrivé=arrivé;
+        this.depart= depart;
+        this.arrivee=arrivee;
         this.prix=prix;
     }
 
-    public Billet(Aeroport départ, Aeroport arrivé, int prix, reservation reservation)
+    public Billet(Aeroport depart, Aeroport arrivee, int prix, reservation reservation)
     {
-        this.départ= départ;
-        this.arrivé=arrivé;
+        this.depart= depart;
+        this.arrivee=arrivee;
         this.prix=prix;
         this.reservation =reservation;
     }
@@ -30,8 +30,8 @@ public class Billet {
 
     @Override
     public String toString() {
-        return départ +
-                "-" + arrivé + ' ' +prix ;
+        return depart +
+                "-" + arrivee + ' ' +prix ;
     }
 
 
